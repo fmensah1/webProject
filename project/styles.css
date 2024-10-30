@@ -1,0 +1,153 @@
+header {
+  display: flex; /* This makes the header a flex container */
+  align-items: center; /* Aligns items vertically in the center */
+  justify-content: space-between; /* Distributes space between items */
+  padding: 10px; /* Adds some padding */
+  background-color: #9be6f0; /* Change this to your desired background color */
+}
+
+.logo {
+ text-align: left;
+}
+
+.navMenu {
+  
+}
+
+.search-bar {
+  
+  margin-left: auto; 
+}
+
+.account {
+ 
+  font-family: Arial;
+  background-color: #f0f2f5;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #94c2ec;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.login-box {
+  width: 100%;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  margin-bottom: 15px;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.login-button button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4a90e2;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button button:hover {
+  background-color: #357abd;
+}
+.signup-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-box {
+  width: 100%;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  margin-bottom: 15px;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-box input:focus {
+  border-color: #4a90e2;
+}
+
+.signup-button {
+  margin-top: 20px;
+}
+
+.signup-button button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4a90e2;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-button button:hover {
+  background-color: #357abd;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login-link a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

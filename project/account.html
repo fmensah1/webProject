@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="account">
+    <header>
+        <div class="logo">mylogo</div>
+        <nav class="navMenu">
+         
+            <a href="index.html">Home</a>
+            <a href="account.html">Account</a>
+            <a href="faqs.html">FAQs</a> 
+       </nav>
+        <div class="searchBar">  
+          <input type="text" placeholder="Search">
+        </div>
+      </header>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form action="signup.html" method="POST">
+                <div class="input-box">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="login-button">
+                    <button type="submit">Login</button>
+                </div>
+                <p class="signup-link">Don't have an account? <a href="signup.html">Sign up here</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
