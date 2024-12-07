@@ -374,3 +374,19 @@ footer {
   color: #fff;
   font-size: 0.9em;
 }
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.item p {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+}

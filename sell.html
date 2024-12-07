@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sell Items</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Campus Market</div>
+        <nav class="navMenu">
+            <a href="index.html">Home</a>
+            <a href="sell.html" class="active">Sell</a>
+            <a href="gallery.html">Buy</a>
+            <a href="faqs.html">FAQs</a>
+        </nav>
+    </header>
+
+    <main class="sell-page">
+        <h1>List Your Item for Sale</h1>
+        <form action="/sell" method="POST">
+            <div class="input-box">
+                <label for="item-name">Item Name</label>
+                <input type="text" id="item-name" name="item-name" required>
+            </div>
+            <div class="input-box">
+                <label for="description">Description</label>
+                <textarea id="description" name="description" required></textarea>
+            </div>
+            <div class="input-box">
+                <label for="price">Price</label>
+                <input type="number" id="price" name="price" required>
+            </div>
+            <div class="input-box">
+                <label for="category">Category</label>
+                <select id="category" name="category">
+                    <option value="electronics">Electronics</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="furniture">Furniture</option>
+                </select>
+            </div>
+            <div class="input-box">
+                <label for="image">Upload Image</label>
+                <input type="file" id="image" name="image" accept="image/*">
+            </div>
+            <button type="submit" class="form-btn">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Campus Market. All rights reserved.</p>
+    </footer>
+</body>
+</html>
